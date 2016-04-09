@@ -23,8 +23,8 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
   /*This is what defines the boxes that contain the material on every page. Variations are defined below*/
 .content {width: 700px; border-style: solid; border-color: #AAAAAA; border-width: 1px; margin-bottom: 2px; margin-top: 2px;}
 .top {background-color: #203333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/CyanLine.png); text-align: left; padding: 3px 5px;}
-.navigation {background-color: #203320; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/GreenLine.png); word-spacing: 30px; text-align: left; padding: 3px 5px;}
-.VIP {background-color: #332033; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/PurpleLine.png); word-spacing: normal; padding: 3px 5px;}
+.navigation {background-color: #203320; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/GreenLine.png); word-spacing: 30px; text-align: left; padding: 1px 5px;}
+.VIP {background-color: #332033; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/PurpleLine.png); word-spacing: normal; padding: 1px 5px;}
 .body {background-color: #333333; padding: 5px; text-align: left; font-size: 14px;}
 .content.special {background-color: #332020; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/RedLine.png); padding-bottom: 1px; padding-top: 1px; font-size: 10px; text-align: left;}
 
