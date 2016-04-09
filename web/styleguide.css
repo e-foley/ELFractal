@@ -38,7 +38,7 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
   /*Specific page features==========================================================================*/
 
   /*This works in conjuntion with "content" to show the image on the index page*/
-.intro {height: 400px;}
+.intro {height: 400px; padding-left: 20px;}
   /*The two images that can be shown on the index, based on the particular cookie. Works in junction with content*/
 .intro.standard {background-image: url('http://i20.photobucket.com/albums/b210/lotht/EL1/EntryJPG.jpg');}
 .intro.alt {background-image: url('http://i20.photobucket.com/albums/b210/lotht/EL1/EntryJPG2.jpg');}
