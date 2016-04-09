@@ -19,10 +19,10 @@
 
 
 <table class="content navigation"><tr><td>
-<a href="updates.php" class="navlink">Updates</a>
 <a href="gallery.php" class="navlink">Gallery</a>
-<span class="navlink">Feedback</span>
 <a href="about.php" class="navlink">About</a>
+<a href="updates.php" class="navlink">Updates</a>
+<span class="navlink">Feedback</span>
 <!--<a href="donate.php" class="navlink">Donate</a>-->
 </td></tr></table>
 

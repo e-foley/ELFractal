@@ -17,10 +17,10 @@
 </td></tr></table>
 
 <table class="content navigation"><tr><td>
-<a href="http://www.elfractal.com/updates.php" class="navlink">Updates</a>
 <a href="http://www.elfractal.com/gallery.php" class="navlink">Gallery</a>
-<a href="http://www.elfractal.com/feedback.php" class="navlink">Feedback</a>
 <a href="http://www.elfractal.com/about.php" class="navlink">About</a>
+<a href="http://www.elfractal.com/updates.php" class="navlink">Updates</a>
+<a href="http://www.elfractal.com/feedback.php" class="navlink">Feedback</a>
 <!--<a href="../donate.php" class="navlink">Donate</a>-->
 </td></tr></table>
 

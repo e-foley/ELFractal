@@ -27,10 +27,10 @@ else
 </td></tr></table>
 
 <table class="content navigation"><tr><td>
-<a href="updates.php" class="navlink">Updates</a>
 <a href="gallery.php" class="navlink">Gallery</a>
-<a href="feedback.php" class="navlink">Feedback</a>
 <a href="about.php" class="navlink">About</a>
+<a href="updates.php" class="navlink">Updates</a>
+<a href="feedback.php" class="navlink">Feedback</a>
 <!--<a href="donate.php" class="navlink">Donate</a>-->
 </td></tr></table>
 
