@@ -51,21 +51,21 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 .introtextsmall {font-size: 20px; font-weight: normal; text-shadow: 2px 2px 1px #000000;}
 
   /*Works in conjunction with "content" to provide the box that houses the thumbnails (or just big fractal?) of the gallery*/
-.gallery {text-align: center; padding: 0px; border-style: none; margin: 20px auto;}
+.gallery {text-align: center; padding: 0px; border-style: none; margin: 35px auto;}
   /*This is the text that displays under the preview picture when one is selected--the title and the sizes*/
 .titletext {color: #FFFFFF; font-size: 14px; font-weight: bold;}
   /*This defines the preview image itself when shown. I think it had its power delegated to PHP constants on that page*/
-.mainpic {border-style: ridge; border-color: #161616; border-width: 2px;}
+.mainpic {border-style: ridge; border-color: #161616; border-width: 2px; margin: 7px 0px;}
   /*The link part only of the available sizes when a picture is selected*/
 .sizelink {color: #CCCCFF; font-size: 14px; font-weight: bold;}
   /*For image gallery page browsing*/
-.pnavbox {margin-top: -4px; width: 700px; text-align: right; /*background-color: #333333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/DarkGrayLine.png);  background-repeat: repeat-y; background-position: top right;*/ padding-left: 0px; padding-right: 0px; border-style: none; border-color: #FF0000; padding-bottom: 2px;}
+.pnavbox {width: 700px; text-align: right; /*background-color: #333333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/DarkGrayLine.png);  background-repeat: repeat-y; background-position: top right;*/ padding-left: 0px; padding-right: 0px; border-style: none; border-color: #FF0000; padding-bottom: 2px;}
 .pnavtext {color: #FFFFFF; font-size: 14px; font-weight: bold; margin-left: 5px; margin-right: 5px;}
 .pnavlink {color: #CCCCFF; font-size: 14px; font-weight: bold;}
 .pnavleft {text-align: left;}
 .pnavright {text-align: right;}
   /*Complex stuff*/
-.gallerytable {width: 699px; border: 0px; border-style: solid; border-color: #AAAAAA; margin-bottom: 2px; margin-top: 2px; border-collapse: collapse; position:relative; left: 0px; /*background-color: #333333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/DarkGrayLine.png);*/}
+.gallerytable {width: 699px; border: 0px; border-style: solid; border-color: #AAAAAA; margin: 25px 0px; border-collapse: collapse; position:relative; left: 0px; /*background-color: #333333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/DarkGrayLine.png);*/}
   /*The table cell the thumbnail is contained in*/
 .thumbnailbox {text-align: center;}
   /*Defines the thumbnail itself*/
