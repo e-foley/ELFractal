@@ -1,5 +1,8 @@
   /*General page features===========================================================================*/
-body {background-color: #000001; background-image:url('http://www.elfractal.com/images/bg1.jpg'); color: white; font-family: "Arial Rounded MT Bold", "Arial";}
+body {background-color: #000001; background-image:url('http://www.elfractal.com/images/bg1.jpg'); color: white; font-family: "Arial";}
+
+  /*Selects the fancy text style used for the site's name*/
+.fancyfont {font-family: "Russo One", "Arial Rounded MT Bold", "Arial";}
 
   /*Encapsulates entire page*/
 .bigdiv {width: 700px; margin: auto;}
@@ -22,11 +25,11 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 .top {background-color: #203333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/CyanLine.png); text-align: left;}
 .navigation {background-color: #203320; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/GreenLine.png); word-spacing: 30px; text-align: left;}
 .VIP {background-color: #332033; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/PurpleLine.png); word-spacing: normal;}
-.body {background-color: #333333; padding: 5px; text-align: left; font-family: "Arial"; font-size: 14px;}
+.body {background-color: #333333; padding: 5px; text-align: left; font-size: 14px;}
 .content.special {background-color: #332020; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/RedLine.png); padding-bottom: 1px; padding-top: 1px; font-size: 10px; text-align: left;}
 
   /*Defines the links in the navigation bar*/
-.navlink {font-size: 16px; font-family: arial; color: white; font-weight: normal;}
+.navlink {font-size: 16px; color: white; font-weight: normal;}
 
   /*Really, just the header of a section, like, "E-mail the webmaster"*/
 .section {font-weight: bold;}
@@ -67,11 +70,11 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 .thumbnail.normal {border-color: #777777;}
 .thumbnail.special {border-color: #CCCCCC;}
   /*"Page generated in x.xxx seconds*/
-.gentime {font-family: arial; color: #555555; font-size: 9px; text-align: center;}
+.gentime {color: #555555; font-size: 9px; text-align: center;}
 
   /*For the updates*/
-.date {font-size: 12px; font-family: arial; font-weight: normal;}
-.update {font-size: 14px; margin-left: 24px; font-family: arial; font-weight: normal;}
+.date {font-size: 12px; font-weight: normal;}
+.update {font-size: 14px; margin-left: 24px; font-weight: normal;}
 
 
   /*All obsolete styling==============================================================================
