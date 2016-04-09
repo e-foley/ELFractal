@@ -23,8 +23,8 @@ else
 ?>
 
 <tr><td>
-<div class="introtext">Empyreal Light</div>
-<div class="introtextsmall">Fractals by Edward Foley</div>
+<div class="introtext fancyfont">Empyreal Light</div>
+<div class="introtextsmall fancyfont">Fractals by Edward Foley</div>
 </td></tr></table>
 
 <table class="content navigation"><tr><td>
