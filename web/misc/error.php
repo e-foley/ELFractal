@@ -14,7 +14,7 @@
 <div align="center">
 
 <table class="content top"><tr><td>
-<span class="title"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a> -&nbsp;</span><span class="title smaller">Error</span>
+<span class="title fancyfont"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a> -&nbsp;</span><span class="title fancyfont smaller">Error</span>
 
 </td></tr></table>
 
