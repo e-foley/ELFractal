@@ -1,5 +1,8 @@
   /*General page features===========================================================================*/
-body {background-color: #000001; background-image:url('http://www.elfractal.com/images/bg1.jpg'); color: white; font-family: "Arial Rounded MT Bold", "Arial";}
+body {background-color: #000001; background-image:url('http://www.elfractal.com/images/bg1.jpg'); color: white; font-family: "Arial";}
+
+  /*Selects the fancy text style used for the site's name*/
+.fancyfont {font-family: "Russo One", "Arial Rounded MT Bold", "Arial";}
 
   /*Encapsulates entire page*/
 .bigdiv {width: 700px; margin: auto;}
@@ -19,14 +22,17 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 
   /*This is what defines the boxes that contain the material on every page. Variations are defined below*/
 .content {width: 700px; border-style: solid; border-color: #AAAAAA; border-width: 1px; margin-bottom: 2px; margin-top: 2px;}
-.top {background-color: #203333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/CyanLine.png); text-align: left;}
-.navigation {background-color: #203320; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/GreenLine.png); word-spacing: 30px; text-align: left;}
-.VIP {background-color: #332033; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/PurpleLine.png); word-spacing: normal;}
-.body {background-color: #333333; padding: 5px; text-align: left; font-family: "Arial"; font-size: 14px;}
+.top {background-color: #203333; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/CyanLine.png); text-align: left; padding: 3px 5px;}
+.navigation {background-color: #203320; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/GreenLine.png); word-spacing: 30px; text-align: left; padding: 1px 5px;}
+.VIP {background-color: #332033; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/PurpleLine.png); word-spacing: normal; padding: 1px 5px;}
+.body {background-color: #333333; padding: 5px; text-align: left; font-size: 14px;}
 .content.special {background-color: #332020; background-image: url(http://i20.photobucket.com/albums/b210/lotht/EL_Misc/RedLine.png); padding-bottom: 1px; padding-top: 1px; font-size: 10px; text-align: left;}
 
   /*Defines the links in the navigation bar*/
-.navlink {font-size: 16px; font-family: arial; color: white; font-weight: normal;}
+.navlink {font-size: 16px; color: white; font-weight: normal;}
+
+  /*Defines links in the special bar including those relating to site font*/
+.speciallink {color: inherit;}
 
   /*Really, just the header of a section, like, "E-mail the webmaster"*/
 .section {font-weight: bold;}
@@ -35,14 +41,14 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
   /*Specific page features==========================================================================*/
 
   /*This works in conjuntion with "content" to show the image on the index page*/
-.intro {height: 400px;}
+.intro {height: 400px; padding-left: 20px;}
   /*The two images that can be shown on the index, based on the particular cookie. Works in junction with content*/
 .intro.standard {background-image: url('http://i20.photobucket.com/albums/b210/lotht/EL1/EntryJPG.jpg');}
 .intro.alt {background-image: url('http://i20.photobucket.com/albums/b210/lotht/EL1/EntryJPG2.jpg');}
   /*"Empyreal Light" on index*/
-.introtext {font-size: 48px; font-weight: bold;}
+.introtext {font-size: 48px; font-weight: bold; text-shadow: 2px 2px 1px #000000;}
   /*"Flame fractals by Ed Foley" on index*/
-.introtextsmall {font-size: 20px; font-weight: normal;}
+.introtextsmall {font-size: 20px; font-weight: normal; text-shadow: 2px 2px 1px #000000;}
 
   /*Works in conjunction with "content" to provide the box that houses the thumbnails (or just big fractal?) of the gallery*/
 .gallery {text-align: center; padding: 0px; border-style: none; margin: 20px auto;}
@@ -67,11 +73,11 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 .thumbnail.normal {border-color: #777777;}
 .thumbnail.special {border-color: #CCCCCC;}
   /*"Page generated in x.xxx seconds*/
-.gentime {font-family: arial; color: #555555; font-size: 9px; text-align: center;}
+.gentime {color: #555555; font-size: 9px; text-align: center;}
 
   /*For the updates*/
-.date {font-size: 12px; font-family: arial; font-weight: normal;}
-.update {font-size: 14px; margin-left: 24px; font-family: arial; font-weight: normal;}
+.date {font-size: 12px; font-weight: normal;}
+.update {font-size: 14px; margin-left: 24px; font-weight: normal;}
 
 
   /*All obsolete styling==============================================================================

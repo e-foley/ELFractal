@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Russo+One" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <style type="text/css">
 @import url(http://www.elfractal.com/styleguide.css);
@@ -93,7 +94,7 @@ function populateFields()
 <div class="bigdiv">
 
 <table class="content top"><tr><td>
-<span class="title"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a> -&nbsp;</span><span class="title smaller">Update Adder</span>
+<span class="title fancyfont"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a>&nbsp;&ndash;&nbsp;</span><span class="title fancyfont smaller">Update Adder</span>
 </td></tr></table>
 
 <table class="content navigation"><tr><td>

@@ -11,6 +11,7 @@ if ($error != 0) {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Russo+One" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <style type="text/css">
 @import url(http://www.elfractal.com/styleguide.css);
@@ -23,7 +24,7 @@ if ($error != 0) {
 <div class="bigdiv">
 
 <table class="content top"><tr><td>
-<span class="title"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a> -&nbsp;</span><span class="title smaller">Gallery</span>
+<span class="title fancyfont"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a>&nbsp;&ndash;&nbsp;</span><span class="title fancyfont smaller">Gallery</span>
 </td></tr></table>
 
 <table class="content navigation"><tr><td>
@@ -456,7 +457,7 @@ var sc_text=2;
 
 <script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c26.statcounter.com/counter.php?sc_project=2575098&amp;java=0&amp;security=40430d0f&amp;invisible=0" alt="website metrics" /></a></div></noscript>
 <!-- End of StatCounter Code -->
-total page views
+total page views. <a href="https://www.google.com/fonts/specimen/Russo+One" class="speciallink">"Russo One"</a> font designed by <a href="https://plus.google.com/115426726897976242009/about" class="speciallink">Jovanny Lemonad</a>.
 
 </td></tr></table>
 
