@@ -119,7 +119,7 @@ if ($_GET['program'] != null)
 //$fgallery = preg_replace("/[^a-zA-Z0-9s]/", "", $_GET['gallery']);
 
 //Should probably protect this better by using regular expression to protect from hackers.
-$bigFractal = mysqli_fetch_array(mysqli_query($con, "SELECT * FROM `Fractal List` WHERE title='" . urldecode($_GET['pic']) . "' AND isVisible='1'"));
+$bigFractal = mysqli_fetch_array(mysqli_query($con, "SELECT * FROM `Fractal List` WHERE title='" . addslashes(urldecode($_GET['pic'])) . "' AND isVisible='1'"));
 
 if ($bigFractal != false) {
   echo "<table class='content gallery'><tr><td>";
