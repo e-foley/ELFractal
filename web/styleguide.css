@@ -45,7 +45,6 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 .introtextsmall {font-size: 20px; font-weight: normal;}
 
   /*Works in conjunction with "content" to provide the box that houses the thumbnails (or just big fractal?) of the gallery*/
-.gallery {/*background-color: #FFFFFF;*/ text-align: center; padding: 0px; border-style: none;}
   /*This is the text that displays under the preview picture when one is selected--the title and the sizes*/
 .titletext {color: #FFFFFF; font-size: 14px; font-weight: bold;}
   /*This defines the preview image itself when shown. I think it had its power delegated to PHP constants on that page*/
