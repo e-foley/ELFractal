@@ -241,17 +241,8 @@ document.write("<td><input type='text' name='dateAdded' value='" + curyear + "-"
 
 <table class="content special"><tr><td>
 
-<a href="http://validator.w3.org/check?uri=referer">
-<img src="http://www.w3.org/Icons/valid-xhtml10"
-style="border:0;width:88px;height:31px"
-alt="Valid XHTML 1.0 Strict" />
-</a>
-
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-<img src="http://jigsaw.w3.org/css-validator/images/vcss" 
-style="border:0;width:88px;height:31px"
-alt="Valid CSS!" />
-</a>
+<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" style="border:0;width:88px;height:31px" alt="Valid XHTML 1.0 Transitional" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://jigsaw.w3.org/css-validator/images/vcss" style="border:0;width:88px;height:31px"alt="Valid CSS!" /></a>
 
 </td></tr></table>
 
