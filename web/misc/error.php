@@ -69,7 +69,7 @@ var sc_text=2;
 
 <script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c26.statcounter.com/counter.php?sc_project=2575098&amp;java=0&amp;security=40430d0f&amp;invisible=0" alt="website metrics" /></a></div></noscript>
 <!-- End of StatCounter Code -->
-total page views
+total page views. <a href="https://www.google.com/fonts/specimen/Russo+One" class="speciallink">"Russo One"</a> font designed by <a href="https://plus.google.com/115426726897976242009/about" class="speciallink">Jovanny Lemonad</a>.
 
 </td></tr></table>
 

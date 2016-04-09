@@ -31,6 +31,9 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
   /*Defines the links in the navigation bar*/
 .navlink {font-size: 16px; color: white; font-weight: normal;}
 
+  /*Defines links in the special bar including those relating to site font*/
+.speciallink {color: inherit;}
+
   /*Really, just the header of a section, like, "E-mail the webmaster"*/
 .section {font-weight: bold;}
 
