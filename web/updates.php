@@ -14,7 +14,7 @@
 <div class="bigdiv">
 
 <table class="content top"><tr><td>
-<span class="title fancyfont"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a> -&nbsp;</span><span class="title fancyfont smaller">Updates</span>
+<span class="title fancyfont"><a href="http://www.elfractal.com" class="titlelink">Empyreal Light</a>&nbsp;&ndash;&nbsp;</span><span class="title fancyfont smaller">Updates</span>
 
 </td></tr></table>
 
