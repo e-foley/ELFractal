@@ -55,7 +55,7 @@ Where will I go in the future? Who's to know?</div>-->
 <p />
 
 <div class="section">The Artist</div>
-<div>My name is Edward Foley and I am a twenty-six-year-old mechatronics engineer.
+<div>My name is Ed Foley and I am a twenty-six-year-old mechatronics engineer.
 Fractals fascinate me because of the intricate designs and vibrant colors that can be obtained using relatively simple transformations, and how they, like clouds in the sky, can seem to resemble certain objects and invoke emotion.
 Also, as one who loves mathematics, geometry, and art, fractals serve as the perfect bridge between my favorite fields; I found that out quickly after my introduction to them in October of 2005.
 Beside fractal-rendering and website-building, I love to play the piano and eat Thai food.
