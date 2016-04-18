@@ -76,7 +76,7 @@ if (!$con)
 //The exclamation mark part is because of "Hey! It Looks like a Bubble!"
 function getSimpleTitle($title) {
   $returnString = str_replace(" ", "", $title);
-  $returnString = str_replace(array("!","'"), "", $returnString);
+  $returnString = str_replace(array("!","'",","), "", $returnString);
   return $returnString;
 }
 
