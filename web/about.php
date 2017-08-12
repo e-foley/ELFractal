@@ -24,7 +24,6 @@
 <span class="navlink">About</span>
 <a href="updates.php" class="navlink">Updates</a>
 <a href="feedback.php" class="navlink">Feedback</a>
-<!--<a href="donate.php" class="navlink">Donate</a>-->
 </td></tr></table>
 
 <table class="content body"><tr><td>
@@ -68,8 +67,8 @@ I think you'd learn more about me by trying to figure out why I named certain fr
 <div class="section">The Fractals</div>
 <div>Every fractal on the website is the output of the newest version of either <a href="http://www.apophysis.org">Apophysis</a> or <a href="http://www.incendia.net">Incendia</a> at the time of rendering.
 All images are initially rendered in a lossless format, and in the case of the larger images, may have their filetypes changed in order to more easily present them; however, fractals are never enhanced for form, color, background, etc. in an external program.
-For Incendia fractals, I render at large dimensions and resize with <a href="http://www.irfanview.com">Irfanview</a>.
-In the case of Apophysis, I never even resize the images--all sizes available, from the tiny 80x64 "glimpse" size to the 1920x1200 "standard wide" variety are rendered independently at the specifications listed below.
+<!--For Incendia fractals, I render at large dimensions and resize with <a href="http://www.irfanview.com">Irfanview</a>.
+In the case of Apophysis, I never even resize the images--all sizes available, from the tiny 80x64 "glimpse" size to the 1920x1200 "standard wide" variety are rendered independently at the specifications listed below.-->
 </div>
 
 <!--Every Apophysis fractal found on the website is the direct, un-manipulated output of the newest version of <a href="http://www.apophysis.org">Apophysis</a> available at the time of rendering.
@@ -87,13 +86,12 @@ The guaranteed rendering specifications are listed below.
 These standards are <span style="font-style: italic;">always</span> enforced, independent of fractal dimensions.
 </div>-->
 
-<p />
+<!--<p />
 
 <div class="section">Guaranteed Rendering Specifications</div>
 <p/>
 <div class="section">Apophysis</div>
 <ul style="margin-left: auto;">
-<!--<div class="section">Apophysis</div>-->
 <li>Sizes: 80x64 "glimpse" (JPG@100q), 160x128 "thumbnail" (PNG), 640x512 "preview" (PNG)</li>
 <li>Optional Sizes: 1280x1024 "standard" (PNG&rArr;JPG@&ge;90q), 1920x1200 "standard wide" (PNG&rArr;JPG@&ge;80q)</li>
 <li>Quality: &ge;4000</li>
@@ -105,10 +103,9 @@ These standards are <span style="font-style: italic;">always</span> enforced, in
 
 <div class="section">Incendia</div>
 <ul style="margin-left: auto;">
-<!--<div class="section">Incendia</div>-->
 <li>Sizes: 80x80 "glimpse" (BMP&rArr;JPG@&ge;90q), 160x160 "thumbnail" (BMP&rArr;PNG), 640x640 "preview" (BMP&rArr;PNG)</li>
 <li>Optional Sizes: 1280x1280 "standard" (BMP&rArr;JPG@&ge;90q)</li>
-</ul>
+</ul>-->
 
 </td></tr></table>
 

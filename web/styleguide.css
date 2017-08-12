@@ -79,6 +79,14 @@ body {background-color: #000001; background-image:url('http://www.elfractal.com/
 .date {font-size: 12px; font-weight: normal;}
 .update {font-size: 14px; margin-left: 24px; font-weight: normal;}
 
+.expgrad {
+  background: -moz-linear-gradient(0deg, #150040 0%, #4000BF 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #150040), color-stop(100%, #4000BF)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(0deg, #150040 0%, #4000BF 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(0deg, #150040 0%, #4000BF 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(0deg, #150040 0%, #4000BF 100%); /* ie10+ */
+  background: linear-gradient(90deg, #150040 0%, #4000BF 100%); /* w3c */ 
+}
 
   /*All obsolete styling==============================================================================
 .browserbody {margin: 0px; padding: 0px;}
