@@ -1,11 +1,6 @@
 <?php
+require_once('./includes/db_connect.php');
 $notice = "";
-$con = mysqli_connect("fdb2.awardspace.com","empyreal_fracts","junkpassword","empyreal_fracts");
-$error = mysqli_connect_errno();
-if ($error != 0) {
-  header("Location: http://www.elfractal.com/misc/error.php?error=" . $error);
-  exit;
-}
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
