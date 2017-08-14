@@ -14,7 +14,7 @@
 <script type="text/javascript">
 
 var badCharsForGuess = /[.,]$/g;
-var badCharsForPhotobucket = /[^A-Za-z0-9\-]/g;
+var charsWeDoNotUseInFilenames = /[^A-Za-z0-9\- ]/g;
 var listSeparator = /,/g;
 var commaCombo = /,  /g;
 var DEFAULT_GALLERY = 4;
@@ -38,7 +38,7 @@ while (updateString.indexOf("\"", i) > -1 && i > -1) {
   endQuote = updateString.indexOf("\"", begQuote);
   if (endQuote > begQuote) {
       //Add the content between and including the two positions as the fractal name. Note, it may still have a punctuation mark.
-    add = (updateString.substring(begQuote, endQuote)).replace(badCharsForGuess,""); 
+    add = (updateString.substring(begQuote, endQuote)).replace(badCharsForGuess,"");
   if (((String)(list)).indexOf(add) == -1)
     list.push(add);
     //If endQuote is equal to -1, as it could be if there is an odd number of quotes, keep it at -1, don't increase to 0.
@@ -62,7 +62,7 @@ var tableString = "";
 tableString += ("<table style='background-color: #115; border-size: 1px; border-style: solid; border-color: #AAA;'>");
 tableString += ("<tr><td colspan='3' style='background-color: #002'>Fractal " + (parseInt(ID)+1) + ": " + title.replace(listSeparator, ', ') + "</td></tr>");
 tableString += ("<tr><td>Visible</td><td><input type='checkbox' name='isVisible" + ID + "' checked /></td>");
-tableString += ("<td rowspan='8' style='text-align: center;'><img src='http://i20.photobucket.com/albums/b210/lotht/EL" + DEFAULT_GALLERY + "/" + title.replace(badCharsForPhotobucket, '') + "-t.png' style='margin: 3px; border-size: 1px; border-style: solid; border-color: #FFF;' />Thumbnail</td></tr>");
+tableString += ("<td rowspan='8' style='text-align: center;'><img src='http://www.elfractal.com/fractals/" + title.replace(charsWeDoNotUseInFilenames, '') + "-t.png' style='margin: 3px; border-size: 1px; border-style: solid; border-color: #FFF;' />Thumbnail</td></tr>");
 tableString += ("<tr><td>Gallery</td><td><input type='text' name='gallery" + ID + "' value='" + DEFAULT_GALLERY + "'/></td></tr>");
 tableString += ("<tr><td>For sale</td><td><input type='checkbox' name='isForSale" + ID + "'checked /></td></tr>");
 tableString += ("<tr><td>Price</td><td><input type='text' name='price" + ID + "' value='-1'/></td></tr>");

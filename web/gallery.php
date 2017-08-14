@@ -70,7 +70,7 @@ if (!$con)
 //Returns the title, formatted so it has no spaces or exclamation points.
 //The exclamation mark part is because of "Hey! It Looks like a Bubble!"
 function getSimpleTitle($title) {
-  $returnString = str_replace(" ", "", $title);
+  $returnString = str_replace(" ", "%20", $title);
   $returnString = str_replace(array("!","'",","), "", $returnString);
   return $returnString;
 }
@@ -248,7 +248,8 @@ switch($letter) {
 }
 
 function getFractalAddress($gallery, $title, $size, $extension) {
-  return ("http://i20.photobucket.com/albums/b210/lotht/EL" . $gallery . "/" . getSimpleTitle($title) . "-" . $size . "." . $extension);
+  // return ("http://i20.photobucket.com/albums/b210/lotht/EL" . $gallery . "/" . getSimpleTitle($title) . "-" . $size . "." . $extension);  // Good riddance, Photobucket!
+  return ("http://www.elfractal.com/fractals/" . getSimpleTitle($title) . "-" . $size . "." . $extension);
 }
 
 
