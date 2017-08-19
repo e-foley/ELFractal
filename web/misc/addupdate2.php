@@ -49,11 +49,7 @@ if (substr_count($_COOKIE["permissionCode"], "11556654433221") >= 1)
   $AUTHORIZED_FRACTAL = true;
 
 //CONNECT===================================================================================================
-$con = mysqli_connect("fdb2.awardspace.com","empyreal_fracts","junkpassword","empyreal_fracts");
-if (!$con)
-{
-  die('Could not connect: ' . mysqli_connect_error());
-}
+require_once('../includes/db_connect.php');
 
 //USEFUL METHODS============================================================================================
 

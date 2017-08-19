@@ -43,11 +43,7 @@ function getmicrotime() {
 }    
 $starttime = getmicrotime();
 
-$con = mysqli_connect("fdb2.awardspace.com","empyreal_fracts","junkpassword","empyreal_fracts");
-if (!$con)
-{
-  die('Eek! there seems to be an error: ' . mysqli_connect_error());
-}
+require_once('./includes/db_connect.php');
 
 function formatDate($date) {
   return substr($date, 5, 2) . "." . substr($date, 8, 2) . "." . substr($date, 2, 2);

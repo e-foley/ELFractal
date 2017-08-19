@@ -1,11 +1,6 @@
 <?php
+require_once('./includes/db_connect.php');
 $notice = "";
-$con = mysqli_connect("fdb2.awardspace.com","empyreal_fracts","junkpassword","empyreal_fracts");
-$error = mysqli_connect_errno();
-if ($error != 0) {
-  header("Location: http://www.elfractal.com/misc/error.php?error=" . $error);
-  exit;
-}
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -42,11 +37,11 @@ if ($_COOKIE["VIP"])
 if ($notice != "")
   echo("<span style='color: #FFFF00; font-weight: bold;'>" . $notice . "</span>");
 
-function getmicrotime() { 
-    $temparray = explode(" ",microtime()); 
-    $returntime = $temparray[0] + $temparray[1]; 
-    return $returntime; 
-}    
+function getmicrotime() {
+    $temparray = explode(" ",microtime());
+    $returntime = $temparray[0] + $temparray[1];
+    return $returntime;
+}
 $starttime = getmicrotime();
 
 //Constants to make displaying thumbnails easy.
@@ -75,7 +70,7 @@ if (!$con)
 //Returns the title, formatted so it has no spaces or exclamation points.
 //The exclamation mark part is because of "Hey! It Looks like a Bubble!"
 function getSimpleTitle($title) {
-  $returnString = str_replace(" ", "", $title);
+  $returnString = str_replace(" ", "%20", $title);
   $returnString = str_replace(array("!","'",","), "", $returnString);
   return $returnString;
 }
@@ -185,14 +180,14 @@ function condenseURL($page, $per, $cols, $pic, $gallery, $sort, $program) {
 
 function getSizesText($sizeString, $title, $gallery, $aspect) {
   $returnString = "";
-  $sizesList = explode("-", $sizeString); 
- 
+  $sizesList = explode("-", $sizeString);
+
   //I start at 1 so I skip the initial hyphen that would be included otherwise.
   for($i=1; $i < count($sizesList); $i++) {
     $sizesList[$i] = letterToLink($sizesList[$i], $title, $gallery, $aspect);
     $returnString .= $sizesList[$i];
     if ($i < (count($sizesList) - 1))
-      $returnString .= " "; 
+      $returnString .= " ";
   }
  return $returnString;
 }
@@ -241,7 +236,7 @@ switch($letter) {
     $height = 1200;
     break;
   }
-  
+
 
 
 
@@ -253,9 +248,10 @@ switch($letter) {
 }
 
 function getFractalAddress($gallery, $title, $size, $extension) {
-  return ("http://i20.photobucket.com/albums/b210/lotht/EL" . $gallery . "/" . getSimpleTitle($title) . "-" . $size . "." . $extension);
+  // return ("http://i20.photobucket.com/albums/b210/lotht/EL" . $gallery . "/" . getSimpleTitle($title) . "-" . $size . "." . $extension);  // Good riddance, Photobucket!
+  return ("http://www.elfractal.com/fractals/" . getSimpleTitle($title) . "-" . $size . "." . $extension);
 }
-    
+
 
 function findThumbnailDimensions($aspect) {
   global $MAX_THUMBNAIL_HEIGHT, $MAX_THUMBNAIL_WIDTH;
@@ -276,7 +272,7 @@ function getNavText($page, $numFractals, $perPage, $numCols, $sort, $program) {
   global $PAGE_NUMBER_BUFFER_LEFT, $PAGE_NUMBER_BUFFER_RIGHT, $END_NUM_PAGES_SHOWN;
   $maxPages = ceil($numFractals/$perPage);
   $returnString = "<span class='pnavtext'>\n";
-  
+
   //If it isn't the first page, activate the "Previous" link.
   if ($page > 1)
     $returnString .= "<a href='" . condenseURL($page-1, $perPage, $numCols, "", "", $sort, $program) . "' class='pnavlink'>Previous</a>\n";
@@ -318,7 +314,7 @@ function getNavText($page, $numFractals, $perPage, $numCols, $sort, $program) {
       $returnString .= ($maxPages . "\n");
   }
 
-  $returnString .= ") ";  
+  $returnString .= ") ";
   if ($page < $maxPages)
     $returnString .= "<a href='" . condenseURL($page+1, $perPage, $numCols, "", "", $sort, $program) . "' class='pnavlink'>Next</a>\n";
   $maxPages = ceil($numFractals/$perPage);
@@ -405,7 +401,7 @@ mysqli_close($con);
 
 
 //echo $endtime;
-//echo "<span class='gentime'>" . $numFractalsTotal . " fractals total. Page generated in " . round(($endtime - $starttime),3) . " seconds.</span>";  
+//echo "<span class='gentime'>" . $numFractalsTotal . " fractals total. Page generated in " . round(($endtime - $starttime),3) . " seconds.</span>";
 ?>
 
 <table class="content body"><tr><td>
@@ -444,12 +440,12 @@ Be sure to enter your correct e-mail address, for I will send the fractal image 
 
 <!-- Start of StatCounter Code -->
 <script type="text/javascript">
-<!-- 
-var sc_project=2575098; 
-var sc_invisible=0; 
-var sc_partition=25; 
-var sc_security="40430d0f"; 
-var sc_text=2; 
+<!--
+var sc_project=2575098;
+var sc_invisible=0;
+var sc_partition=25;
+var sc_security="40430d0f";
+var sc_text=2;
 //-->
 </script>
 
